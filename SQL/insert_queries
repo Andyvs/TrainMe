@@ -30,3 +30,49 @@ INSERT INTO fruits VALUES (5, "Guava", 2, "fall");
 INSERT INTO fruits VALUES (6, "Pineapple", 4, "fall");
 INSERT INTO fruits VALUES (7, "Fig", 1, "summer");
 INSERT INTO fruits VALUES (8, "Durian", 10, "summer");
+
+Inserting into teachers table:
+-------------------------------
+INSERT INTO teachers (name, email)
+    VALUES ("Socrates", "soc@rat.es");
+INSERT INTO teachers (name, email)
+    VALUES ("Maria Montessori", "maria@montessori.com");
+
+Inserting into students table:
+-------------------------------
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Antisthenes", "jr@winston.com", 1);
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Xenophon", "xenophon@greece.com", 1);
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Plato", "plato@greece.com", 1);
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Larry", "larry@page.com", 2);
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Sergey", "larry@page.com", 2);
+INSERT INTO students (name, email, teacher_id)
+    VALUES ("Ray", "ray@bradbury.com", NULL);
+
+
+Inserting into bridge table:
+----------------------------
+INSERT INTO bridges (name, length, country) VALUES
+    ("Danyang–Kunshan Grand Bridge", 164800, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Tianjin Grand Bridge", 113700, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Weinan Weihe Grand Bridge", 79732, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Bang Na Expressway", 54000, "Thailand");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Beijing Grand Bridge", 48153, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Lake Pontchartrain Causeway", 38422, "United States");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Manchac Swamp bridge", 36710, "United States");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Yangcun Bridge", 35812, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Hangzhou Bay Bridge", 35673, "China");
+INSERT INTO bridges (name, length, country) VALUES
+    ("Runyang Bridge", 35660, "China");
