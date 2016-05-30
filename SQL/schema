@@ -1,0 +1,15 @@
+Creating groceries table:
+-------------------------
+CREATE TABLE groceries (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, price INTEGER);
+
+Creating customers table:
+-------------------------
+CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT, age INTEGER, weight REAL);
+
+Creating fruits table:
+----------------------
+CREATE TABLE fruits (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    price INTEGER,
+    season TEXT);
