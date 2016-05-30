@@ -1,3 +1,5 @@
+
+
 SELECT country, COUNT(*)
     FROM bridges GROUP BY country;
   
